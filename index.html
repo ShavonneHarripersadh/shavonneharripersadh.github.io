@@ -1,207 +1,189 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<title>ShavonneCV</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Shavonne Harripersadh -CV">
-	<meta name="keywords" content="resume, civic, onepage, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
-
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Shavonne Harripersadh — CV</title>
+<style>
+  :root{
+    --accent:#0d9488; /* teal */
+    --accent2:#7c3aed; /* purple */
+    --muted:#475569;
+    --bg:#f8fafc;
+    --card:#ffffff;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:linear-gradient(180deg,#f0fdfa 0%, #f8fafc 100%);
+    color:#111;
+  }
+  .container{
+    max-width:900px;
+    margin:36px auto;
+    padding:28px;
+    background:var(--card);
+    border-radius:14px;
+    box-shadow:0 12px 40px rgba(15,23,42,.1);
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:22px;
+  }
+  .left{
+    padding:18px;
+    border-radius:12px;
+    background:linear-gradient(180deg,rgba(13,148,136,0.08),rgba(124,58,237,0.06));
+  }
+  .avatar{
+    width:96px;height:96px;
+    border-radius:14px;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    display:flex;align-items:center;justify-content:center;
+    color:white;font-weight:700;font-size:22px;
+    margin-bottom:12px;
+    box-shadow:0 8px 20px rgba(13,148,136,.25)
+  }
+  h1{margin:0;font-size:1.7rem;color:var(--accent)}
+  h2{margin:14px 0 6px;color:var(--accent2);font-size:1.05rem;letter-spacing:.5px}
+  .muted{color:var(--muted);font-size:.95rem}
+  .section{margin:18px 0}
+  .skill{
+    display:inline-block;
+    background:#ecfeff;
+    padding:6px 12px;
+    border-radius:8px;
+    margin:6px 6px 0 0;
+    font-size:.9rem;
+    color:#0f172a;
+    border:1px solid #99f6e4;
+  }
+  .right{padding:18px}
+  .job{margin-bottom:18px}
+  .job h3{margin:0;font-size:1.05rem;color:var(--accent)}
+  .job .meta{font-size:.9rem;color:var(--muted);margin-bottom:6px}
+  .bullets{margin:6px 0 0 16px}
+  .bullets li{margin-bottom:6px}
+  @media screen{
+    .container{transform:translateY(0);animation:float 1.2s ease-out both}
+    @keyframes float{from{transform:translateY(16px);opacity:0}to{transform:translateY(0);opacity:1}}
+  }
+  @media print{
+    body{background:white}
+    .container{box-shadow:none}
+  }
+</style>
 </head>
 <body>
-	<!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-	
-	<!-- Header section start -->
-	<header class="header-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="site-logo">
-						<h2><a href="#">Shavonne Harripersadh - CV</a></h2>
-						
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</header>
-	<!-- Header section end -->
+  <div class="container">
+    <div class="left">
+      <div class="avatar">SH</div>
+      <h1>Shavonne Harripersadh Bromhof</h1>
+      <div class="muted">Software Developer in Test · Automation Engineer</div>
 
-	<!-- Hero section start -->
-	<section class="hero-section spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="row">
-						<div class="col-lg-6">
-							<div class="hero-text">
-								<h2>Shavonne Harripersadh</h2>								
-								<p>Graduate Trainee(Software Developer)</p>
-							</div>
-							<div class="hero-info">
-								<h2>General Info</h2>
-								<ul>
-									<li><span>Date of Birth</span>Feb 2, 1996</li>
-									<li><span>Title</span>Mr</li>
-									<li><span>Gender </span>Male</li>
-									
-									<li><span>Address</span>21 Salseete Road, Durban, South Africa</li>
-									
-									<li><span>Race</span>Indian</li>
-									<li><span>Health </span>Excellent</li>
-									<li><span>Marital Status</span>Single</li>
-									<li><span>Criminal Record </span>None</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<figure class="hero-image">
-								<img src="img/shav.jpg" alt="5">
-							</figure>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Hero section end -->
+      <div class="section">
+        <h2>Contact</h2>
+        <div class="muted">Randburg, 2188 · +27 82 888 6182</div>
+        <div><a href="mailto:sharripersadh@gmail.com">sharripersadh@gmail.com</a></div>
+        <div><a href="https://github.com/ShavonneHarripersadh" target="_blank">github.com/ShavonneHarripersadh</a></div>
+      </div>
 
-	<!-- Social links section start -->
-	<div class="social-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-10 offset-xl-1">
-					<div class="social-link-warp">
-						<div class="social-links">
-							<a href=""><i class="fa fa-pinterest"></i></a>
-							<a href=""><i class="fa fa-linkedin"></i></a>
-							<a href=""><i class="fa fa-instagram"></i></a>
-							<a href=""><i class="fa fa-facebook"></i></a>
-							<a href=""><i class="fa fa-twitter"></i></a>
-						</div>
-						<h2 class="hidden-md hidden-sm">My Social Profiles</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	<!-- Social links section end -->
+      <div class="section">
+        <h2>Core Skills</h2>
+        <div class="skill">Java</div><div class="skill">Selenium</div><div class="skill">TestNG / JUnit</div>
+        <div class="skill">Rest Assured</div><div class="skill">Jenkins</div><div class="skill">JMeter</div>
+        <div class="skill">Spring Boot</div><div class="skill">Node.js</div><div class="skill">Express.js</div>
+        <div class="skill">Angular (exposure)</div>
+      </div>
 
-	<!-- Resume section start -->
-	<section class="resume-section spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-7 offset-xl-2">
-					<div class="section-title">
-						<h2>Work Experience</h2>
-					</div>
-					<ul class="resume-list">
-						<li>
-							<h2>2018(May)-Present</h2>
-							<h3>Software Development - Betting Entertainment Technologies</h3>
-							<h4>Graduate Trainee(Software Developer)</h4>
-							<p>The Graduate program was to give us exposure to technologies and give us the necessary experience with development we need to start off in a better position than most in entry-level</p>
-						</li>						
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Resume section end -->
+      <div class="section">
+        <h2>Interests</h2>
+        <div class="muted">Soccer · Chess · AI · Gaming · Family & Travel</div>
+      </div>
+    </div>
 
-	<!-- Resume section start -->
-	<section class="resume-section with-bg spad">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-7 offset-xl-2">
-					<div class="section-title">
-						<h2>Education</h2>
-					</div>
-					<ul class="resume-list">
-						<li>
-							<h2>Secondary</h2>
-							<h3>National Senior Certificate</h3>
-							<h4>Merebank Secondary</h4>
-							<p>
-							Subjects
-							<div>
-							
-							Mathematics(Distinction)<br>
-							English(HL)<br>
-							Afrikaans(FAL)<br>
-							Information Technology<br>
-							Life Orientation<br>
-							Physical Science(Distinction)<br>
-							Life Science(Distinction)
-							
-							
-							</div>
-							</p>
-						</li>
-						<li>
-							<h2>Tertiary</h2>
-							<h3>BSc Computer Science and Information Technology</h3>
-							<h3>University of KwaZulu-Natal</h3>
-							<h4>2014-2017</h4>
-							<div>20/24 modules completed (Including Information Technology major)</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Resume section end -->
+    <div class="right">
+      <div class="section">
+        <h2>Professional Summary</h2>
+        <div class="muted">
+          Senior Software Development Engineer in Test (SDET) with extensive experience in test automation, Java development, and QA innovation. Skilled in designing scalable UI/API test suites, testing high-volume systems, and applying AI solutions in QA. Recently built an AI-powered agent that reads scripts and generates skeleton code, reducing repetitive effort. Comfortable working with backend services (Java microservices, Node.js, Express) and frontend exposure (Angular), bridging QA and development for stronger delivery.
+        </div>
+      </div>
 
-	
+      <div class="section">
+        <h2>Experience</h2>
 
-	<!-- Review section end -->
+        <div class="job">
+          <h3>Software Development Engineer in Test — First National Bank</h3>
+          <div class="meta">Dec 2021 – Present</div>
+          <ul class="bullets">
+            <li>Responsible for automation delivery on the bank’s highest-volume system — the API Gateway layer.</li>
+            <li>Designed and maintained a Java + Selenium hybrid framework, ensuring stability for enterprise regression suites.</li>
+            <li>Built Spring Boot micro-test services to simulate APIs, reducing dependency on shared environments.</li>
+            <li>Expanded automation coverage across regression packs to accelerate release cycles.</li>
+            <li>Created an AI-powered QA agent that reads manual scripts and produces Java test skeletons, reducing repetitive coding.</li>
+            <li>Worked alongside developers on Java microservices, contributing utilities and reviewing code.</li>
+          </ul>
+        </div>
 
+        <div class="job">
+          <h3>Automation Tester — First National Bank</h3>
+          <div class="meta">Apr 2021 – Dec 2021</div>
+          <ul class="bullets">
+            <li>Developed UI automation packs integrated into daily build cycles, providing rapid feedback to dev teams.</li>
+            <li>Refactored and streamlined automation code for better maintainability and efficiency.</li>
+            <li>Supported an API-first testing approach using Rest Assured for core banking endpoints.</li>
+          </ul>
+        </div>
 
-	
+        <div class="job">
+          <h3>Software Engineer — Blue Bean Software</h3>
+          <div class="meta">Aug 2019 – Apr 2021</div>
+          <ul class="bullets">
+            <li>Delivered backend services for clients including:</li>
+            <li><strong>Treasury system (Java microservices)</strong> — contributed to core transactional services.</li>
+            <li><strong>Banking solutions (Node.js + Express.js)</strong> — built backend APIs supporting financial applications.</li>
+            <li>Promoted automation practices across client projects to enhance release confidence.</li>
+          </ul>
+        </div>
 
+        <div class="job">
+          <h3>Integration & Frontend Developer — Telesure Group Services</h3>
+          <div class="meta">Jan 2019 – Aug 2019</div>
+          <ul class="bullets">
+            <li>Implemented a MEAN-stack medical insurance platform integrating backend and frontend systems.</li>
+            <li>Automated validation processes, reducing manual effort for business users.</li>
+          </ul>
+        </div>
 
-	
+        <div class="job">
+          <h3>Junior Software Developer — Betting Entertainment Technologies (Hollywoodbets)</h3>
+          <div class="meta">May 2018 – Dec 2018</div>
+          <ul class="bullets">
+            <li>Developed SQL Server stored procedures and backend modules in Java.</li>
+            <li>Gained exposure to Angular while assisting in UI development for betting applications.</li>
+            <li>Worked on high-traffic systems, learning scalability and performance considerations.</li>
+          </ul>
+        </div>
+      </div>
 
-	<!-- Footer section start -->
-	<footer class="footer-section">
-		<div class="container text-center">
-			<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-</div>
-		</div>
-	</footer>
-	<!-- Footer section end -->
+      <div class="section">
+        <h2>Education</h2>
+        <div class="muted">University of KwaZulu-Natal — BSc Computer Science & IT (2014–2017, 20/24 modules)</div>
+        <div class="muted">Merebank Secondary School — NSC (Matric) — Distinctions in Math, Physical Science, Life Science</div>
+      </div>
 
+      <div class="section">
+        <h2>Projects & Highlights</h2>
+        <ul class="bullets">
+          <li><strong>Automation Framework</strong> — Built and maintained a Page Object Model framework with CI/CD integration.</li>
+          <li><strong>Performance Testing</strong> — Led performance testing of the API Gateway, the bank’s most heavily used system.</li>
+          <li><strong>AI in QA</strong> — Created an agent that reads scripts and generates skeleton code, reducing manual setup work.</li>
+          <li><strong>Cross-Tech Collaboration</strong> — Delivered Node.js services, contributed to Java microservices, and gained Angular exposure.</li>
+        </ul>
+      </div>
 
-	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/magnific-popup.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+    </div>
+  </div>
 </body>
 </html>
